@@ -1,0 +1,41 @@
+apply plugin: 'com.android.application'
+
+android {
+
+    lintOptions {
+        checkReleaseBuilds true
+        // Or, if you prefer, you can continue to check for errors in release builds,
+        // but continue the build even when errors are found:
+        abortOnError false
+    }
+
+    compileSdkVersion 23
+    buildToolsVersion "23.0.3"
+
+    defaultConfig {
+        applicationId "ts.tangames.ventix"
+        minSdkVersion 11
+        targetSdkVersion 23
+        versionCode 4
+        versionName "@string/version_name"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    testCompile 'junit:junit:4.12'
+    compile project(':AndEngine')
+    compile project(':Andenginephysicsbox2dextension')
+    compile 'com.android.support:appcompat-v7:23.4.0'
+    compile 'com.android.support:support-v4:23.4.0'
+    compile 'com.google.android.gms:play-services-games:9.0.1'
+    compile 'com.google.android.gms:play-services-ads:9.0.1'
+    // :play-services-games
+
+}

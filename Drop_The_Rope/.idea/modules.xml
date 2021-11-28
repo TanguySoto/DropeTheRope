@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/AndEngine/AndEngine.iml" filepath="$PROJECT_DIR$/AndEngine/AndEngine.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Andenginephysicsbox2dextension/Andenginephysicsbox2dextension.iml" filepath="$PROJECT_DIR$/Andenginephysicsbox2dextension/Andenginephysicsbox2dextension.iml" />
+      <module fileurl="file://$PROJECT_DIR$/App/App.iml" filepath="$PROJECT_DIR$/App/App.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Drop_The_Rope.iml" filepath="$PROJECT_DIR$/Drop_The_Rope.iml" />
+    </modules>
+  </component>
+</project>

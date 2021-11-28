@@ -1,0 +1,77 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:id="@+id/back_rope"
+             tools:context="ts.tangames.drop_the_rope.activity.RopeActivity">
+
+    <FrameLayout android:layout_width="match_parent"
+                 android:layout_height="match_parent"
+                 android:id="@+id/root_rope"
+                 android:background="@drawable/rope_activity_root_background">
+
+        <!-- The primary full-screen view. This can be replaced with whatever view
+             is needed to present your content, e.g. VideoView, SurfaceView,
+             TextureView, etc. -->
+
+        <GridView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/gridview_rope"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:overScrollMode="never"
+        android:numColumns="@string/columns_number"
+        android:stretchMode="columnWidth"
+        android:gravity="center"/>
+
+        <RelativeLayout
+            android:id="@+id/header_rope"
+            android:layout_width="match_parent"
+            android:background="@drawable/rope_activity_header_background"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/loading"
+                    android:id="@+id/textView_gem"
+                    android:textColor="@color/item_description_text_color"
+                    android:layout_gravity="center_vertical"/>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/coin"
+                    android:id="@+id/imageView_gem"
+                    android:layout_gravity="center_vertical"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/rope_activity_title"
+                android:id="@+id/textView_title"
+                android:textColor="@color/item_description_text_color"
+                android:layout_centerInParent="true"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/homeButton"
+                android:src="@drawable/home"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"/>
+
+        </RelativeLayout>
+
+    </FrameLayout>
+</FrameLayout>

@@ -1,0 +1,39 @@
+<resources>
+
+    <!-- ======= GENERAL =======  -->
+    <color name="black_overlay">#FF000000</color>
+
+
+    <!-- ======= @GameActivity =======  -->
+
+
+    <!-- ======= @"Choose"Activity =======  -->
+    <!-- Item -->
+    <color name="item_bought_background">#ffffff</color>
+
+    <color name="item_activated_background">#ffffff</color>
+    <color name="item_activated_background_stroke">#ff6600</color>
+
+    <color name="item_description_text_color">#FF000000</color>
+
+    <!-- Tranparent -->
+    <color name="transparent">#00000000</color>
+
+    <!-- Activity -->
+    <color name="choose_activity_background">#77000000</color>
+
+    <color name="player_activity_root_background">#d3e9e1</color>
+    <color name="player_activity_header_background">#9ed0bc</color>
+    <color name="player_activity_header_gradient">#8dcbb3</color>
+
+    <color name="rope_activity_root_background">#e1e2da</color>
+    <color name="rope_activity_header_background">#bec2ac</color>
+    <color name="rope_activity_header_gradient">#b3b7a1</color>
+
+
+
+
+    <color name="rope_item_title_background">#eeeeee</color>
+
+
+</resources>

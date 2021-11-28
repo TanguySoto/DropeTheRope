@@ -1,0 +1,80 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+From AndEngine:
+* .gitignore
+* AUTHORS.md
+* LICENSE.md
+* README.md
+* build.xml
+* checkstyle.xml
+* ext/
+* ext/img/
+* ext/img/android.svg
+* ext/img/badge.png
+* ext/img/badge.svg
+* ext/img/badge_xlarge.png
+* ext/img/clapboard.png
+* ext/img/clapboard.svg
+* ext/img/favicon.png
+* ext/img/favicon.svg
+* ext/img/icon.svg
+* ext/img/logo.png
+* ext/img/logo.svg
+* ext/img/logo_icon.svg
+* ext/img/source.png
+* ext/img/source.svg
+* ext/img/splash.png
+* ext/img/splash.svg
+* ext/libs/
+* ext/libs/ant-contrib-1.0b3.jar
+* ext/scripts/
+* ext/scripts/build_texturepacks.sh
+* git-rank-contributors.rb
+* proguard-project.txt
+From AndEnginePhysicsBox2DExtension:
+* .gitignore
+* UPDATE_LIBGDX_SOURCES.bat
+* build.xml
+* proguard-project.txt
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+In AndEngine:
+* AndroidManifest.xml => andEngine/src/main/AndroidManifest.xml
+* jni/ => andEngine/src/main/jni/
+* libs/armeabi-v7a/libandengine.so => andEngine/src/main/jniLibs/armeabi-v7a/libandengine.so
+* libs/armeabi/libandengine.so => andEngine/src/main/jniLibs/armeabi/libandengine.so
+* libs/mips/libandengine.so => andEngine/src/main/jniLibs/mips/libandengine.so
+* libs/x86/libandengine.so => andEngine/src/main/jniLibs/x86/libandengine.so
+* res/ => andEngine/src/main/res/
+* src/ => andEngine/src/main/java/
+In AndEnginePhysicsBox2DExtension:
+* AndroidManifest.xml => AndEnginePhysicsBox2DExtension/src/main/AndroidManifest.xml
+* jni/ => AndEnginePhysicsBox2DExtension/src/main/jni/
+* res/ => AndEnginePhysicsBox2DExtension/src/main/res/
+* src/ => AndEnginePhysicsBox2DExtension/src/main/java/
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

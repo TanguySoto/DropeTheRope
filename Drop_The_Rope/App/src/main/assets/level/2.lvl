@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<level width="1500" height="780">    
+    <entity x="400" y="100" type="platform"/>
+    <entity x="180" y="220" type="player"/>
+</level>

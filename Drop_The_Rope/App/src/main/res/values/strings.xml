@@ -1,0 +1,118 @@
+<resources>
+
+    <!-- ======= GENERAL =======  -->
+    <string name="app_name">Drop The Rope</string>
+    <string name="version_code">4</string>
+    <string name="version_name">1.1.1</string>
+    <string name="version">Version</string>
+
+    <!-- ======= GOOGLE PLAY LIKE BUTTON =======  -->
+    <string name="google_play_url">market://details?id=ts.tangames.ventix</string>
+    <string name="http_url">https://play.google.com/store/apps/details?id=ts.tangames.ventix</string>
+    <string name="google_play_error">Play Store is not installed</string>
+
+    <string name="app_id">[REMOVED]</string>
+    <string name="leaderboard_normal_score">[REMOVED]</string>
+
+    <!-- ======= ADCOLONY =======  -->
+    <string name="adcolony_app_id">[REMOVED]</string>
+    <string name="adcolony_zone_id">[REMOVED]</string>
+    <integer name="adcolony_gems_reward">15</integer>
+
+    <!-- ======= GOOGLE ADMOB =======  -->
+    <string name="admob_app_id">[REMOVED]</string>
+    <string name="banner_id">[REMOVED]</string>
+    <string name="interstitial_id">[REMOVED]</string>
+
+
+    <!-- ======= @MenuActivity =======  -->
+    <!-- GooglePlayServices  -->
+    <string name="not_signed_in">You\'r not connected to Google Play Games</string>
+    <string name="cant_connect">Can\'t connect</string>
+    <string name="sound_enabled">Sound enabled</string>
+    <string name="sound_disabled">Sound disabled</string>
+    <string name="how_to_play">How to play ?</string>
+
+    <string name="difficult">Hard</string>
+    <string name="difficult_desc">Brings more coins !</string>
+    <string name="normal">Normal</string>
+    <string name="easy_desc">Fewer coins to collect.\nBest score doesn\'t count.</string>
+    <string name="easy">Easy</string>
+
+    <string name="tangames">TanGames</string>
+
+    <!-- ======= @GameActivity =======  -->
+    <!-- GameScene  -->
+    <string name="score">Score</string>
+    <string name="best_score">Best</string>
+    <string name="gems_collected">Collected coins</string>
+    <string name="four_in_a_row">4 in a row !</string>
+
+    <string name="tuto_step0">Touch the screen\n to drop the rope</string>
+    <string name="tuto_step1">Touch again\n to throw the next rope</string>
+    <string name="tuto_step2">Drop at the right time ...</string>
+    <string name="tuto_step3">... and aim for the center\n to win 1 bonus point</string>
+    <string name="tuto_step4">Collect coins\nand buy new heroes</string>
+    <string name="tuto_step5">Let\'s play !</string>
+
+    <!-- PauseChildScene  -->
+    <string name="pause">Pause</string>
+
+    <!-- GameOverChildScene  -->
+    <string name="game_over">Game Over</string>
+
+
+    <!-- ======= @RopeActivity =======  -->
+    <string name="rope_activity_title">Ropes</string>
+
+    <!-- Rope Item -->
+     <string name="loading">Loading...</string>
+     <string name="select">Select</string>
+     <string name="selected">Selected</string>
+     <string name="buy">Buy</string>
+     <string name="cant_buy">Not enough coins</string>
+
+     <string name="columns_number">2</string>
+
+    <!-- Rope Description -->
+    <string name="normal_rope">Common but effective</string>
+    <integer name="normal_rope_price">0</integer>
+
+    <string name="short_rope">A short and jumpy rope</string>
+    <integer name="short_rope_price">100</integer>
+
+    <string name="long_rope">Truly endless</string>
+    <integer name="long_rope_price">350</integer>
+
+    <string name="one_piece_rope">2 parts, nothing more</string>
+    <integer name="one_piece_rope_price">800</integer>
+
+    <string name="gold_rope">Collected coins x2</string>
+    <integer name="gold_rope_price">1300</integer>
+
+    <string name="silver_rope">Score x2</string>
+    <integer name="silver_rope_price">2500</integer>
+
+    <!-- ======= @PlayerActivity =======  -->
+    <string name="player_activity_title">Heroes</string>
+
+    <!-- Player Description -->
+    <string name="basic_player">Polyvalent</string>
+    <integer name="basic_player_price">0</integer>
+
+    <string name="small_player">Free as a bird</string>
+    <integer name="small_player_price">100</integer>
+
+    <string name="big_player">Heavy and resistant</string>
+    <integer name="big_player_price">300</integer>
+
+    <string name="big_target_player">Improved aiming system</string>
+    <integer name="big_target_player_price">900</integer>
+
+    <string name="gold_player">Collected coins x2</string>
+    <integer name="gold_player_price">1250</integer>
+
+    <string name="silver_player">Score x2</string>
+    <integer name="silver_player_price">2500</integer>
+
+</resources>

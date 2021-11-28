@@ -1,0 +1,115 @@
+<resources>
+
+    <!-- ======= GENERAL =======  -->
+    <string name="app_name" >Drop The Rope</string>
+    <string name="version_code" >4</string>
+    <string name="version_name" >1.1.1</string>
+    <string name="version">Version</string>
+
+    <!-- ======= GOOGLE PLAY LIKE BUTTON =======  -->
+    <string name="google_play_url">market://details?id=ts.tangames.ventix</string>
+    <string name="http_url">https://play.google.com/store/apps/details?id=ts.tangames.ventix</string>
+    <string name="google_play_error">Le Play Store ne semble pas installé</string>
+
+    <!-- ======= ADCOLONY =======  -->
+    <string name="adcolony_app_id" >appdb16b0df4aa6473285</string>
+    <string name="adcolony_zone_id" >vzfd82ccc6095041d897</string>
+    <integer name="adcolony_gems_reward">15</integer>
+
+    <!-- ======= GOOGLE ADMOB =======  -->
+    <string name="admob_app_id" >ca-app-pub-7972833247181930~6849216803</string>
+    <string name="banner_id" >ca-app-pub-7972833247181930/8325950003</string>
+    <string name="interstitial_id" >ca-app-pub-7972833247181930/7141764806</string>
+
+
+    <!-- ======= @MenuActivity =======  -->
+    <!-- GooglePlayServices  -->
+    <string name="not_signed_in">Vous n\'est pas connecté au Google Play Games</string>
+    <string name="cant_connect">Impossible de se connecter</string>
+    <string name="sound_enabled">Son activé</string>
+    <string name="sound_disabled">Son désactivé</string>
+    <string name="how_to_play">Comment jouer ?</string>
+
+    <string name="difficult">Difficile</string>
+    <string name="difficult_desc">La richesse à portée de main !</string>
+    <string name="normal">Normal</string>
+    <string name="easy_desc">Moins de pièces à collecter.\nRecord non comptabilisé.</string>
+    <string name="easy">Facile</string>
+
+    <string name="tangames">TanGames</string>
+
+    <!-- ======= @GameActivity =======  -->
+    <!-- GameScene  -->
+    <string name="score">Score</string>
+    <string name="best_score">Record</string>
+    <string name="gems_collected">Pièces collectées</string>
+    <string name="four_in_a_row">4 à la suite !</string>
+
+    <string name="tuto_step0">Touchez l\'écran\n pour lâcher la corde</string>
+    <string name="tuto_step1">Touchez à nouveau\n pour lancer une autre corde</string>
+    <string name="tuto_step2">Lâchez au bon moment ...</string>
+    <string name="tuto_step3">... et visez le centre\n pour gagner 1 point bonus</string>
+    <string name="tuto_step4">Collectez les pièces\net achetez de nouveaux héros</string>
+    <string name="tuto_step5">A vous de jouer !</string>
+
+    <!-- PauseChildScene  -->
+    <string name="pause">Pause</string>
+
+    <!-- GameOverChildScene  -->
+    <string name="game_over" >Game Over</string>
+
+
+    <!-- ======= @RopeActivity =======  -->
+    <string name="rope_activity_title">Cordes</string>
+
+    <!-- Rope Item -->
+     <string name="loading">Chargement...</string>
+     <string name="select">Choisir</string>
+     <string name="selected">Activé</string>
+     <string name="buy">Acheter</string>
+     <string name="cant_buy">Pas assez de pièces</string>
+
+     <string name="columns_number" >2</string>
+
+    <!-- Rope Description -->
+    <string name="normal_rope">Banale mais efficace</string>
+    <integer name="normal_rope_price">0</integer>
+
+    <string name="short_rope">Une corde courte et nerveuse</string>
+    <integer name="short_rope_price">100</integer>
+
+    <string name="long_rope">Véritable tyrolienne</string>
+    <integer name="long_rope_price">350</integer>
+
+    <string name="one_piece_rope">2 morceaux, pas plus</string>
+    <integer name="one_piece_rope_price">800</integer>
+
+    <string name="gold_rope">Pièces collectées x2</string>
+    <integer name="gold_rope_price">1300</integer>
+
+    <string name="silver_rope">Score x2</string>
+    <integer name="silver_rope_price">2500</integer>
+
+    <!-- ======= @PlayerActivity =======  -->
+    <string name="player_activity_title">Héros</string>
+
+    <!-- Player Description -->
+    <string name="basic_player">Polyvalent</string>
+    <integer name="basic_player_price">0</integer>
+
+    <string name="small_player">Libre comme l\'air</string>
+    <integer name="small_player_price">100</integer>
+
+    <string name="big_player">Lourd et endurant</string>
+    <integer name="big_player_price">300</integer>
+
+    <string name="big_target_player">Visée améliorée</string>
+    <integer name="big_target_player_price">900</integer>
+
+    <string name="gold_player">Pièces collectées x2</string>
+    <integer name="gold_player_price">1250</integer>
+
+    <string name="silver_player">Score x2</string>
+    <integer name="silver_player_price">2500</integer>
+
+</resources>
